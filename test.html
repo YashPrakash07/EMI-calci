@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Loan EMI Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>Personal Loan EMI Calculator</h2>
+    <div class="input-group">
+      <label for="loanAmount">Loan Amount:</label>
+      <input type="range" id="loanAmountSlider" min="10000" max="100000" value="50000">
+      <input type="number" id="loanAmount" min="10000" max="100000" value="50000">
+      <span id="loanAmountDisplay">₹50,000</span>
+    </div>
+    <div class="input-group">
+      <label for="interestRate">Interest Rate (%):</label>
+      <input type="range" id="interestRateSlider" min="1" max="30" value="10">
+      <input type="number" id="interestRate" min="1" max="30" value="10">
+      <span id="interestRateDisplay">10%</span>
+    </div>
+    <div class="input-group">
+      <label for="loanTenure">Loan Tenure (months):</label>
+      <input type="range" id="loanTenureSlider" min="12" max="120" value="24">
+      <input type="number" id="loanTenure" min="12" max="120" value="24">
+      <span id="loanTenureDisplay">24 months</span>
+    </div>
+    <!-- Result Container -->
+  <div class="result-container">
+    <div class="result-box">
+      <div class="result">
+        <h3>Calculated EMI:</h3><span id="emiValue">₹5000</span>
+      </div>
+    </div>
+
+    <!-- Apply Button Container -->
+    <!-- <div class="apply-button-box">
+      <div class="apply-button">
+        <button>Apply for Personal Loan</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <!-- <div class="sticky-button">
+    <button>Apply for Personal Loan</button>
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+</html>

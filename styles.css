@@ -1,0 +1,138 @@
+/* General styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  .calculator {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align all content */
+  }
+  
+  .calculator h2 {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: #3498db;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="range"],
+  input[type="number"],
+  span[id$="Display"],
+  .result {
+    width: 80%;
+    margin: 0 auto; 
+    /* Center all elements */
+  }
+  
+  input[type="range"] {
+    display: block;
+  }
+  
+  input[type="number"] {
+    margin-top: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+  }
+  
+  span[id$="Display"] {
+    display: inline;
+    width: 100%; /* Adjusted width */
+    text-align: left;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* .result {
+    
+    margin-top: 20px;
+    padding: 0;
+     /* Removed horizontal padding */
+  /* } */ */
+  
+  /* Sticky button styles */
+  .sticky-button {
+    width: 90%;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sticky-button button {
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+
+  .result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items in the center vertically */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .result-box {
+    flex: 1;
+    margin-right: 10px; /* Spacing between boxes */
+    text-align: center;
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
+  /* Apply Button Container styles */
+  .apply-button-box {
+    flex: 1;
+    margin-left: 20px; /* Spacing between result and button boxes */
+  }
+  
+  .apply-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .apply-button button {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
