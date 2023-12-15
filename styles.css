@@ -51,6 +51,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     display: block;
+    width: auto;
   }
   
   span[id$="Display"] {
